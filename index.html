@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        
+        <!--font awesome website-->
+        <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+       
+        <!--bootstrap cdn-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <!--Google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;900&family=Ubuntu&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <section id="header">
+           <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href=""><i class="fa-solid fa-code-fork"></i> Portfolio</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#project">Projects</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+                </ul>
+             </div>
+            </nav>
+
+            <div class="header-text">
+                <h1>Hi, I'm <span>Mahathi</span></h1>
+                <p>A passionate programmer with a curious mind who enjoys solving complex and challenging real-world problems.</p>
+                <button type="button" class="btn btn-dark btn-lg download-button" href=""><i class="icon fas fa-download"></i> View CV</button>
+            </div>
+          </div>
+        </section>
+
+        <!--about-->
+        <section id="about">
+          <div class="container-fluid">
+            <h1 class="sub-title">About Me</h1>
+            <p>I am an undergraduate student from NIT Warangal currently pursuing my Btech in Electrical and Electronics Engineering(EEE).
+              I am a full stack web developer and I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly.</p>
+            <p>I have a keen understanding of NodeJs,ExpressJs,Javascript,html,css and DSA. Other than coding my intrests lie in reading novels and watching movies.</p>
+          </div>
+        </section>
+
+        <!--skills-->
+        <section id="skills">
+          <h1>Skills</h1>
+          <p>I have a good experience of below technologies and languages.I am always keen to explore any new technologies.</p>
+          <div class="row">
+            <div class="skillsec col-md-4">
+              <h1><i class="icon fas fa-database"></i> Front End</h1>
+              <p>Experience with Html,css,JavaScript.</p>
+            </div>
+            <div class="skillsec col-md-4">
+              <h1><i class="icon fas fa-database"></i> Back-End</h1>
+              <p>Good knowledge of NodeJs</p>
+            </div>
+            <div class="skillsec col-md-4">
+              <h1><i class="icon fas fa-code"></i> C++</h1>
+              <p>Good knowledge of DSA</p>
+            </div>
+          </div>
+        </section>
+
+        <!--Projects-->
+        <section id="project">
+          <h1>Projects</h1>
+          <div class="row">
+            <div class="cardcol col-md-6">
+              <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="./tindog.png" alt="Tindog web">
+                <div class="card-body">
+                  <h5 class="card-title">Tindog website</h5>
+                  <p class="card-text">Dog website built with the help of Html and Css</p>
+                  <a href="https://mahathi970.github.io/Tindog-website/" class="btn btn-primary">View site</a>
+                </div>
+              </div>
+            </div>
+            <div class="cardcol col-md-6">
+              <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="./simon game.png" alt="Simon game">
+                <div class="card-body">
+                  <h5 class="card-title">Simon Fun game</h5>
+                  <p class="card-text">Built using Html,Css,Javascript and Nodejs</p>
+                  <a href="https://mahathi970.github.io/Simon-Fun-game/" class="btn btn-primary">View site</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="cardcol col-md-6">
+              <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="./drum kit .png" alt="Drumkit-website">
+                <div class="card-body">
+                  <h5 class="card-title">Drumkit-website</h5>
+                  <p class="card-text">Built using Html,Css and Javascript</p>
+                  <a href="https://mahathi970.github.io/Drumkit-website/" class="btn btn-primary">View site</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        
+        <!--Contacts-->
+        <section id="contacts">
+          <h1>Get In Touch</h1>
+          <div class="row">
+            <div class="contactcol col-md-6">
+              <h6 style="color:lightgrey">Mail me</h6>
+              <a class="mail_call" href="mailto:sandup_951917@student.nitw.ac.in">sandup_951917@student.nitw.ac.in</a>
+            </div>
+            <div class="contactcol col-md-6">
+              <h6 style="color:lightgrey">Call me</h6>
+              <a class="mail_call" href="tel:8978517077">8978517077</a>
+            </div>
+
+            <div class="footer">
+              <a class="footer-link" href="https://www.linkedin.com/"><i class="icon fab fa-brands fa-linkedin"></i></a>
+              <a class="footer-link" href="https://www.github.com/"><i class="icon fab fa-brands fa-github"></i></a>
+            </div>
+          </div>
+        </section>
+    </body>
+</html>

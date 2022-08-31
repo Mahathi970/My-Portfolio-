@@ -1,0 +1,123 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+#header{
+    background-color: black;
+}
+.container-fluid{
+    padding : 1% auto;
+}
+.navbar{
+    padding : 1rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+.header-text {
+    text-align: left;
+    font-size: 20px;
+    padding: 15% 35% 15% 3%;
+    color: white;
+    
+}
+.header-text p{
+    color: lightgray;
+}
+.header-text span{
+    color:orangered;
+}
+
+/*about*/
+#about{
+    padding: 10%;
+}
+#about h1{
+    padding-bottom: 2%;
+}
+#about p{
+    color: dimgray;
+    font-size: 20px;
+}
+
+/*skills*/
+#skills{
+    padding: 10%;
+    background-color: black;
+    color: white;
+}
+#skills p{
+    color: lightgray;
+    font-size: 20px;
+}
+#skills .row{
+    padding:3%;
+}
+#skills .row h1 {
+    font-size: 25px;
+}
+#skills .row p{
+    font-size : 18px
+}
+#skills .row .icon{
+    size: 10px;
+    color:bisque;
+}
+
+/*Projects*/
+#project{
+    padding:5% 10%;
+}
+#project h1{
+    padding-bottom: 3%;
+}
+.row .cardcol {
+    padding-bottom: 3%;
+}
+/*contacts*/
+#contacts{
+    background-color: black;
+    color:white;
+    padding: 10%;
+}
+.contactcol{
+    padding: auto;
+}
+.mail_call {
+    font-size: 18px;
+    color: orangered;
+    text-decoration: none;
+}
+.mail_call:hover{
+    text-decoration: none;
+    color: lightblue;
+}
+
+/*footer*/
+.footer {
+    margin: auto;
+    padding-top: 3%;
+}
+.footer h1{
+    line-height: 3;
+    margin-bottom: 3px;
+}
+.footer-link {
+    font-size: 25px;
+    padding: 5px;
+    color: lightgray;
+}
+.footer-link:hover{
+    color : white;
+}
